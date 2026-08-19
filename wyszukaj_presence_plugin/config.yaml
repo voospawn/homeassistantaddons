@@ -1,5 +1,5 @@
 name: Network Scanner
-version: "1.0.0"
+version: "1.0.1"
 slug: network_scanner
 description: C++ ARP network scanner
 startup: services
