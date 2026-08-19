@@ -13,6 +13,8 @@ privileged:
 
 map:
   - type: homeassistant_config
+    path: custom_components/wyszukaj_presence
+    path_in_container: /wyszukaj_presence
     read_only: false
 
 arch:
