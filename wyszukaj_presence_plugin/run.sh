@@ -10,12 +10,10 @@ do
     # echo "Starting network scan..."
     # echo "========================================"
 
-    rm /devices.json
     cp /config/custom_components/wyszukaj_presence/devices.json /devices.json
 
     /wyszukaj
 
-    rm /config/custom_components/wyszukaj_presence/wynik.json
     cp /wynik.json /config/custom_components/wyszukaj_presence/wynik.json
 
     # echo
