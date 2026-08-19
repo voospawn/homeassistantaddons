@@ -1,0 +1,12 @@
+{
+  "domain": "wyszukaj_presence",
+  "name": "Wyszukaj Presence",
+  "version": "3.4.0",
+  "config_flow": true,
+  "dependencies": [
+    "panel_custom"
+  ],
+  "integration_type": "hub",
+  "iot_class": "local_polling",
+  "single_config_entry": true
+}

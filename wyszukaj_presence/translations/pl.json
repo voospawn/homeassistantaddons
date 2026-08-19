@@ -1,0 +1,8 @@
+{
+  "title": "Wyszukaj Presence",
+  "config": {
+    "abort": {
+      "single_instance_allowed": "Mo\u017cna skonfigurowa\u0107 tylko jedn\u0105 instancj\u0119."
+    }
+  }
+}
