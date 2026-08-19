@@ -10,7 +10,7 @@ do
     # echo "Starting network scan..."
     # echo "========================================"
 
-    ./wyszukaj
+    /config/custom-components/wyszukaj_presence/wyszukaj
 
     # echo
     # echo "Scan finished."
