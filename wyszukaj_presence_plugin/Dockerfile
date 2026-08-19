@@ -9,7 +9,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 COPY wyszukaj.cpp /wyszukaj.cpp
 COPY run.sh /run.sh
 
-RUN g++ -O2 /wyszukaj.cpp -o /wyszukaj
+RUN g++ -O3 /wyszukaj.cpp -o /wyszukaj -std=c++23 
 RUN chmod +x /wyszukaj /run.sh && \
     rm /wyszukaj.cpp
 
