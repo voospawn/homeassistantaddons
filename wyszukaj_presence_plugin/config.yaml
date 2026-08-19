@@ -1,7 +1,7 @@
-name: Network Scanner
+name: wyszukaj presence
 version: "1.0.1"
-slug: network_scanner
-description: C++ ARP network scanner
+slug: wyszukaj_presence
+description: modół skanera sieci do wyszukaj presence w C++ ARP 
 startup: services
 boot: auto
 
