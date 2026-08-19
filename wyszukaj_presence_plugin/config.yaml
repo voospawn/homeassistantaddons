@@ -1,0 +1,19 @@
+name: Network Scanner
+version: "1.0.0"
+slug: network_scanner
+description: C++ ARP network scanner
+startup: services
+boot: auto
+
+host_network: true
+
+privileged:
+  - NET_RAW
+  - NET_ADMIN
+
+map:
+  - type: homeassistant_config
+    read_only: false
+
+arch:
+  - amd64
