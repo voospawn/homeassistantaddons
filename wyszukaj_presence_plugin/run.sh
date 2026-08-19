@@ -10,7 +10,7 @@ do
     # echo "Starting network scan..."
     # echo "========================================"
 
-    /app/wyszukaj
+    sudo ./wyszukaj
 
     # echo
     # echo "Scan finished."
