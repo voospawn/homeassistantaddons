@@ -1,5 +1,5 @@
 name: wyszukaj presence
-version: "1.1.1"
+version: "1.1.2"
 slug: wyszukaj_presence
 description: modół skanera sieci do wyszukaj presence w C++ ARP 
 startup: services
