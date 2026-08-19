@@ -643,7 +643,7 @@ void zapisz_wyniki(
 }
 
 int main(){
-    vector<urzadzenie> telefony = odczytaj_json("/custom/wyszukaj_presence/devices.json"), urzadzenia = znajdz_urzadzenia();
+    vector<urzadzenie> telefony = odczytaj_json("/config/custom_components/wyszukaj_presence/devices.json"), urzadzenia = znajdz_urzadzenia();
 
     int n = telefony.size();
 
@@ -675,5 +675,5 @@ int main(){
         wynik[i].isIt = (czyJest[telefony[i].name] or czyJest[telefony[i].mac]);
     }
 
-    zapisz_wyniki("/custom/wyszukaj_presence/wynik.json", wynik);
+    zapisz_wyniki("/config/custom_components/wyszukaj_presence/wynik.json", wynik);
 }
